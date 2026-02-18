@@ -1,0 +1,48 @@
+{
+    "cesp_version": "1.0",
+    "name": "totally-spies-fr",
+    "display_name": "Totally spies (FR)",
+    "version": "1.0.0",
+    "description": "Best of Totally Spies (FR): Jerry, Clover, Sam & Alex <3",
+    "author": {
+      "name": "Capucine R.",
+      "github": "capucineROHART"
+    },
+    "license": "CC-BY-NC-4.0",
+    "language": "fr",
+    "categories": {
+      "session.start": {
+        "sounds": [
+          { "file": "sounds/hello/compowder.mp3", "label": "Hello!" },
+          { "file": "sounds/hello/bonsoir_filles.mp3", "label": "Hello!" },
+          { "file": "sounds/hello/quoi_de_neuf.mp3", "label": "Hello!" },
+          { "file": "sounds/hello/content_revoir.mp3", "label": "Hello!" },
+          { "file": "sounds/hello/bonjour_mesdemoiselles.mp3", "label": "Hello!" }
+        ]
+      },
+      "task.complete": {
+        "sounds": [
+          { "file": "sounds/task_done/genial.mp3", "label": "Task done" },
+          { "file": "sounds/task_done/fabuleux.mp3", "label": "Task done" },
+          { "file": "sounds/task_done/inutile_remercier.mp3", "label": "Task done" },
+          { "file": "sounds/task_done/gadgets.mp3", "label": "Task done" }
+        ]
+      },
+      "task.error": {
+        "sounds": [
+          { "file": "sounds/oops/plus_de_mon_ressort.mp3", "label": "Oops" },
+          { "file": "sounds/oops/heure_grave.mp3", "label": "Oops" },
+          { "file": "sounds/oops/chaos.mp3", "label": "Oops" },
+          { "file": "sounds/oops/drame.mp3", "label": "Oops" }
+        ]
+      },
+      "input.required": {
+        "sounds": [
+          { "file": "sounds/need_input/faites_vite.mp3", "label": "Need input" },
+          { "file": "sounds/need_input/neutraliser.mp3", "label": "Need input" },
+          { "file": "sounds/need_input/tombe_a_pic.mp3", "label": "Need input" },
+          { "file": "sounds/need_input/en_cours_de_dev.mp3", "label": "Need input" }
+        ]
+      }
+    }
+  }
