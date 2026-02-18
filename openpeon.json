@@ -8,40 +8,49 @@
       "name": "Capucine R.",
       "github": "capucineROHART"
     },
-    "license": "CC-BY-NC-4.0",
+    "license": "CC-BY-NC-ND",
     "language": "fr",
     "categories": {
       "session.start": {
         "sounds": [
-          { "file": "sounds/hello/compowder.mp3", "label": "Hello!" },
-          { "file": "sounds/hello/bonsoir_filles.mp3", "label": "Hello!" },
-          { "file": "sounds/hello/quoi_de_neuf.mp3", "label": "Hello!" },
-          { "file": "sounds/hello/content_revoir.mp3", "label": "Hello!" },
-          { "file": "sounds/hello/bonjour_mesdemoiselles.mp3", "label": "Hello!" }
+          { "file": "sounds/hello/compowder.mp3", "label": "Hello from compowder" },
+          { "file": "sounds/hello/bonsoir_filles.mp3", "label": "Good evening" },
+          { "file": "sounds/hello/quoi_de_neuf.mp3", "label": "What's up" },
+          { "file": "sounds/hello/bonjour_mesdemoiselles.mp3", "label": "Hello girls" }
+        ]
+      },
+      "task.acknowledge": {
+        "sounds": [
+          { "file": "sounds/acknowledge/content_revoir.mp3", "label": "Happy to see you" },
+          { "file": "sounds/acknowledge/gadgets.mp3", "label": "Gadgets" }
+          
         ]
       },
       "task.complete": {
         "sounds": [
-          { "file": "sounds/task_done/genial.mp3", "label": "Task done" },
-          { "file": "sounds/task_done/fabuleux.mp3", "label": "Task done" },
-          { "file": "sounds/task_done/inutile_remercier.mp3", "label": "Task done" },
-          { "file": "sounds/task_done/gadgets.mp3", "label": "Task done" }
+          { "file": "sounds/task_done/genial.mp3", "label": "Awesome" },
+          { "file": "sounds/task_done/fabuleux.mp3", "label": "Marvellous" },
+          { "file": "sounds/task_done/inutile_remercier.mp3", "label": "No need to thank" }
         ]
       },
       "task.error": {
         "sounds": [
-          { "file": "sounds/oops/plus_de_mon_ressort.mp3", "label": "Oops" },
-          { "file": "sounds/oops/heure_grave.mp3", "label": "Oops" },
-          { "file": "sounds/oops/chaos.mp3", "label": "Oops" },
-          { "file": "sounds/oops/drame.mp3", "label": "Oops" }
+          { "file": "sounds/oops/heure_grave.mp3", "label": "Situation is serious" },
+          { "file": "sounds/oops/drame.mp3", "label": "Tragedy" }
         ]
       },
       "input.required": {
         "sounds": [
-          { "file": "sounds/need_input/faites_vite.mp3", "label": "Need input" },
-          { "file": "sounds/need_input/neutraliser.mp3", "label": "Need input" },
-          { "file": "sounds/need_input/tombe_a_pic.mp3", "label": "Need input" },
-          { "file": "sounds/need_input/en_cours_de_dev.mp3", "label": "Need input" }
+          { "file": "sounds/need_input/faites_vite.mp3", "label": "Hurry" },
+          { "file": "sounds/need_input/neutraliser.mp3", "label": "Need neutralization" },
+          { "file": "sounds/need_input/tombe_a_pic.mp3", "label": "Come in handy"}
+        ]
+      },
+      "resource.limit": {
+        "sounds": [
+          { "file": "sounds/resource/chaos.mp3", "label": "Chaos" },
+          { "file": "sounds/resource/en_cours_de_dev.mp3", "label": "Use smoothly" },
+          { "file": "sounds/resource/plus_de_mon_ressort.mp3", "label": "Out of my hands" }
         ]
       }
     }
